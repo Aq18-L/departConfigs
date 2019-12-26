@@ -39,7 +39,7 @@ eureka:
       defaultZone: http://eureka8100:8100/eureka # 指定eureka服务中心
   instance:
     instance-id: aq-msc-provider-8084 # 指定当前客户端在服务注册中心的名字
-
+---
 # 配置test环境
 server:
   port: 8085

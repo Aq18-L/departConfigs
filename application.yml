@@ -2,14 +2,14 @@ spring:
   profiles:
     active: dev # 环境选择
 
-
+---
 # 开发环境
 spring:
   application:
     name: aqmsc-config-dev
   profiles: dev
 
-
+---
 # 测试环境
 spring:
   application:
