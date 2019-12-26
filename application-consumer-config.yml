@@ -1,0 +1,33 @@
+# 配置dev环境
+spring:
+  profiles: dev
+  application:
+    name: aqmsc-consumer-depart
+
+server:
+  port: 7070
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka8100.com:8100/eureka
+
+feign:
+  hystrix:
+    enabled: true
+
+
+# 配置test环境
+spring:
+  profiles: test
+  application:
+    name: aqmsc-consumer-depart
+
+server:
+  port: 9090
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka8200.com:8200/eureka
+feign:
+  hystrix:
+    enabled: true
