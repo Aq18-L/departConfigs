@@ -36,7 +36,7 @@ logging:
 eureka:
   client:
     service-url:
-      defaultZone: http://eureka8100:8100/eureka # 指定eureka服务中心
+      defaultZone: http://eureka8100.com:8100/eureka # 指定eureka服务中心
   instance:
     instance-id: aq-msc-provider-8084 # 指定当前客户端在服务注册中心的名字
 ---
@@ -78,6 +78,6 @@ logging:
 eureka:
   client:
     service-url:
-      defaultZone: http://eureka8200:8200/eureka # 指定eureka服务中心
+      defaultZone: http://eureka8200.com:8200/eureka # 指定eureka服务中心
   instance:
     instance-id: aq-msc-provider-8085 # 指定当前客户端在服务注册中心的名字
